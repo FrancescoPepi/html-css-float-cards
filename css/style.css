@@ -6,13 +6,13 @@
   box-sizing: border-box;
 }
 
-header > * {
+header > .row * {
   text-align: center;
   margin: 40px 0px;
 }
 
 body {
-  padding: 0px 10%;
+  margin: 0px 10%;
   font-family: "M PLUS Rounded 1c", sans-serif;
 }
 
@@ -42,9 +42,13 @@ h1,
 .name {
   font-weight: 900;
 }
+.big-container {
+  /* margin: auto 0px; */
+  padding: 15px;
+}
 
 .row {
-  margin: -15px -15px;
+  margin: -15px;
 }
 
 .clearfix::after {
