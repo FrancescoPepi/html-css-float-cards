@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.debug {
+  border: 2px dashed black;
+}
+
+.clearfix {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.big-container {
+  margin: 0px 15%;
+}
+
+.card {
+  height: 100px;
+  width: calc(100% / 3 - 30px);
+  margin: 15px;
+  float: left;
+}
+
+.profile {
+  width: 30%;
+  height: 100%;
+  border-color: red;
+  float: left;
+}
+.form {
+  width: 70%;
+  height: 100%;
+  border-color: blue;
+  float: left;
+}
+
+img {
+  width: 100%;
+}
