@@ -1,10 +1,50 @@
+/* GENERIC */
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
+
+header > * {
+  text-align: center;
+  margin: 40px 0px;
+}
+
+body {
+  padding: 0px 10%;
+  font-family: "M PLUS Rounded 1c", sans-serif;
+}
+
+.name,
+.job {
+  display: block;
+  color: white;
+}
+
+a {
+  text-decoration: none;
+  display: block;
+  color: #17ccf2;
+}
+
+h1 {
+  color: #e53170;
+}
+
+/* UTILITIES */
+
 .debug {
   border: 2px dashed black;
+}
+
+h1,
+.name {
+  font-weight: 900;
+}
+
+.row {
+  margin: -15px -15px;
 }
 
 .clearfix::after {
@@ -13,30 +53,28 @@
   clear: both;
 }
 
-.big-container {
-  margin: 0px 15%;
-}
-
+/* INIZIO CSS CARD */
 .card {
-  height: 100px;
+  height: 120px;
   width: calc(100% / 3 - 30px);
+  background-color: #0f0e17;
   margin: 15px;
   float: left;
 }
 
 .profile {
-  width: 30%;
+  width: calc(100% / 4);
   height: 100%;
-  border-color: red;
   float: left;
-}
-.form {
-  width: 70%;
-  height: 100%;
-  border-color: blue;
-  float: left;
+  margin-right: 20px;
 }
 
-img {
+.form * {
+  margin-top: 10px;
+}
+
+.profile > img {
+  height: 100%;
   width: 100%;
 }
+/* FINECSS CARD */
